@@ -18,10 +18,11 @@
 
 ## Simple steps
 1) Copy Catla.jar from 'catla-dist' to 'examples' folder, thus, the example folders and Catla.jar are in the same folder. 
-3) Change master host's information within 'HadoopEnv.txt' according to your actual Hadoop cluster, such as master's IP, master's username, password, master port, Hadoo bin path, and root folder of App (the same as set in 6 of Prerequisties). 
-2) Open a Windows CMD program, change current folder into the '/examples' folder by using 'CD' command
-3) Simply Run the Java command as bellows: '<b>java -jar Catla.jar -tool task -dir task_wordcount</b>'. 
-4) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
+2) Change master host's information within 'HadoopEnv.txt' according to your actual Hadoop cluster, such as master's IP, master's username, password, master port, Hadoo bin path, and root folder of App (the same as set in 6 of Prerequisties). 
+3) Open a Windows CMD program, change current folder into the '/examples' folder by using 'CD' command
+4) Simply Run the Java command as bellows: '<b>java -jar Catla.jar -tool task -dir task_wordcount</b>'. 
+5) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
+5) The above step is a simple demonstration example; more advanced examples for tuning purposes can see: https://github.com/dhchenx/Catla/blob/master/docs/catla-usage.md
 
 ## Visualization based on aggregation of time cost
 
