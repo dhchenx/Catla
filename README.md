@@ -6,7 +6,7 @@
 ## Core functions
 1) <b>Task Runner:</b> To submit a single MapReduce job to a Hadoop cluster and obtain its analyzing results and logs after the job is completed. 
 2) <b>Project Runner:</b> To submit a group of MapReduce jobs in an organized project folder and moniter the status of its running until completion; eventually, all analyzing results and their logs that contain informaiton of time cost in all phrases are downloaded to specified location in its project folder. 
-3) <b>Optimizer Runner:</b> To create a series of MapReduece jobs with different combinations of parameter values according to parameter configuraion files and obtain the optimal parmater value sets with least time cost after the tuning process is finished. Two tuning process, namely exhaustive search and derivative-free optimization (DFO) techniques, are supported.
+3) <b>Optimizer Runner:</b> To create a series of MapReduece jobs with different combinations of parameter values according to parameter configuraion files and obtain the optimal parmater value sets with least time cost after the tuning process is finished. Two tuning processes, namely exhaustive search and derivative-free optimization (DFO) techniques, are supported.
 
 ## Prerequisites
 1) You should run Catla in a Windows computer located in <b>the same network</b> as Hadoop clusters. It means Catla is able to access the IP of master host.
@@ -20,12 +20,7 @@
 1) Copy Catla.jar from 'catla-dist' to 'examples' folder, thus, the example folders and Catla.jar are in the same folder. 
 3) Change master host's information within 'HadoopEnv.txt' according to your actual Hadoop cluster, such as master's IP, master's username, password, master port, Hadoo bin path, and root folder of App (the same as set in 6 of Prerequisties). 
 2) Open a Windows CMD program, change current folder into the '/examples' folder by using 'CD' command
-3) Simply Run the Java command as bellows: 
-<br/>
-<code>
-java -jar Catla.jar -tool task -dir task_wordcount
-</code>
-<br/>
+3) Simply Run the Java command as bellows: '<i><b>java -jar Catla.jar -tool task -dir task_wordcount</b></i>'. 
 4) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
 
 ## Key usage
@@ -91,7 +86,7 @@ After job completion, the summaries of job metrics are located in the sub folder
 
 ![Surface Plots of tuning MapReduce job performance](https://github.com/dhchenx/Catla/blob/master/images/catla-surfaceplot.jpg?raw=true)
 
-# Cite this project
+## Cite this project
 <p>
 D. Chen. Catla: A self-tuning system for Hadoop parameters to improve MapReduce job performance, 2019, GitHub repository, https://github.com/dhchenx/Catla
 </p>
