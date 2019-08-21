@@ -1,0 +1,15 @@
+﻿Task submit
+#Indicate whether the ouput is sync or async during the job running
+Async True
+#Set the jar path in remote Ubuntu system
+JarRemotePath WordCount.jar
+#Set main class executed in Hadoop jar command
+MainClass cn.edu.bjtu.cdh.examples.tuning.WordCount
+#Set input parmaters of MapReduce job
+Args /data/cdh/tuning/wordcount/input /data/cdh/tuning/wordcount/output
+#Set folder path of _SUCCESS file when detecting whether the task is successfully finished
+FolderOfSuccessFlag /data/cdh/tuning/wordcount/output
+#Set the analyzing result folder in HDFS; multiple folders are supported with spaces. 
+OutputHdfsFolders  /data/cdh/tuning/wordcount/output
+#Set the local output folder to which the analyzing result is downloaded
+OutputLocalRootFolder download_results

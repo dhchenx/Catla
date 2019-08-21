@@ -1,0 +1,4 @@
+mapreduce.task.io.sort.mb
+mapreduce.map.sort.spill.percent
+#mapred.reduce.tasks
+#$Args

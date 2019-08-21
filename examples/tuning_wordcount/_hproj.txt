@@ -1,0 +1,6 @@
+Id WordCount for Tuning
+Description This is a demo application for tuning WordCount - Donghua Chen
+Inputs inputs
+Outputs outputs
+Jars jars
+Logs logs

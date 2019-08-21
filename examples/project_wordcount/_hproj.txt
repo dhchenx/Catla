@@ -1,0 +1,6 @@
+Id A HadoopProject for WordCount
+Description This is a demo project for WordCount - Donghua Chen
+Inputs inputs
+Outputs outputs
+Jars jars
+Logs logs

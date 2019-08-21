@@ -1,0 +1,7 @@
+﻿Task init
+MasterHost 192.168.159.XXX
+MasterPassword XXXXX
+MasterPort 22
+MasterUser hadoop
+HadoopBin /usr/hadoop/bin/hadoop
+AppRoot /usr/hadoop_apps

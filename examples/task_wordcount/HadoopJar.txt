@@ -1,0 +1,7 @@
+﻿Task upload
+#Set the path of local jar file
+LocalJarPath WordCount.jar
+#Set the relative path of jar file which is uploaded to Ubuntu master host. 
+RemoteJarPath WordCount.jar
+#Indicate if delete the existing jar file on remote Ubuntu directory. 
+DeleteExistingFile true

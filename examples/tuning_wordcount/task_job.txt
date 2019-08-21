@@ -1,0 +1,10 @@
+﻿Task submit
+Async true
+JarRemotePath HPExamples.jar
+MainClass cn.edu.bjtu.cdh.examples.wordcount.WordCount
+Args /data/cdh/tuning/wordcount/input /data/cdh/tuning/wordcount/output
+FolderOfSuccessFlag /data/cdh/tuning/wordcount/output
+OutputHdfsFolders /data/cdh/tuning/wordcount/output
+OutputLocalRootFolder outputs
+LogPath history
+Trace true
