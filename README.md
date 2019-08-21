@@ -1,5 +1,5 @@
 # Catla
-![Catla's logo](https://github.com/dhchenx/Catla/tree/master/images/catla-logo.jpg)
+![Catla's logo](https://github.com/dhchenx/Catla/blob/master/images/catla-logo.jpg?raw=true)
 <b>Catla</b> is a self-tuning system for Hadoop parameters to improve performance of MapReduce jobs on Hadoop clusters. It is template-driven, making it very flexible to perform complicated job execution, monitering and self-tuning. 
 
 ## Core functions
