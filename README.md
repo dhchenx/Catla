@@ -23,7 +23,7 @@
 3) Simply Run the Java command as bellows: '<b>java -jar Catla.jar -tool task -dir task_wordcount</b>'. 
 4) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
 
-## Visualization based on aggregation of time cost during the tuning process
+## Visualization based on aggregation of time cost
 
 ![Surface Plots of tuning MapReduce job performance](https://github.com/dhchenx/Catla/blob/master/images/catla-surfaceplot.jpg?raw=true)
 
