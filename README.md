@@ -21,9 +21,11 @@
 3) Change master host's information within 'HadoopEnv.txt' according to your actual Hadoop cluster, such as master's IP, master's username, password, master port, Hadoo bin path, and root folder of App (the same as set in 6 of Prerequisties). 
 2) Open a Windows CMD program, change current folder into the '/examples' folder by using 'CD' command
 3) Simply Run the Java command as bellows: 
+<br/>
 <code>
 java -jar Catla.jar -tool task -dir task_wordcount
-</code><br/>
+</code>
+<br/>
 4) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
 
 ## Key usage
