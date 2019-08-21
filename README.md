@@ -89,5 +89,10 @@ After job completion, the summaries of job metrics are located in the sub folder
 
 ![Surface Plots of tuning MapReduce job performance](https://github.com/dhchenx/Catla/blob/master/images/catla-surfaceplot.jpg?raw=true)
 
+# Cite this project
+<p>
+D. Chen. Catla: A self-tuning system for Hadoop parameters to improve MapReduce job performance, 2019, GitHub repository, https://github.com/dhchenx/Catla
+</p>
+
 
 
