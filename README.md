@@ -1,5 +1,5 @@
 # Catla
-![Image of Yaktocat](https://dhchenx.github.com/images/catla-logo.jpg)
+(https://github.com/dhchenx/Catla/tree/master/images/catla-logo.jpg)
 <b>Catla</b> is a self-tuning system for Hadoop parameters to improve performance of MapReduce jobs on Hadoop clusters. It is template-driven, making it very flexible to perform complicated job execution, monitering and self-tuning. 
 
 ## Core functions
@@ -12,8 +12,8 @@
 2) Standard <b>Java environment</b> on the computer should be properly installed. 
 3) Hadoop must enable <b>Yarn Log Aggregation</b> by setting value of 'yarn.log-aggregation-enable' to true.https://mapr.com/docs/51/AdministratorGuide/YARNLogAggregation-Enabli_28214137-d3e129.html 
 4) Critical information of master host, like <b>username, userpassword, SSH port, etc.</b> must be known because Catala needs the information to run MapReduce jobs. 
-5) You must change the configuration of master host's information in the env_* files in the example folder before you try to run any examples here. 
-6) In your master host, please use 'sudo mkdir' command to create a new folder /usr/hadoop_apps in Ubuntu and change the folder's permission to every-one access. 
+5) You must <b>change the configuration of master host's information</b> in the env_* files in the example folder before you try to run any examples here. 
+6) In your master host, please use 'sudo mkdir' command to create a new folder <b>/usr/hadoop_apps</b> in Ubuntu and change the folder's permission to every-one access. 
 
 ## Simple steps
 1) Copy Catla.jar from 'catla-dist' to 'examples' folder, thus, the example folders and Catla.jar are in the same folder. 
@@ -22,7 +22,7 @@
 3) Simply Run the Java command as bellows: 
 <code>
 java -jar Catla.jar -tool task -dir task_wordcount
-</code>
+</code><br/>
 4) After finished, the 'task_wordcount' folder should create a new folder 'downloaded_results' which stores the analzying result of WordCount MapReduce job. 
 
 ## Key usage
@@ -76,14 +76,17 @@ Details of optimizer arguments can see: http://commons.apache.org/proper/commons
 
 Details of optimizer arguments can see: https://commons.apache.org/proper/commons-math/javadocs/api-3.1/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/NelderMeadSimplex.html 
 
-### 5) Aggregate logs from the tuning results
+### (4) Aggregate logs from the tuning results
 When the tuning process is stopped in the middle, the log aggregation is not finished. Therefore, you can start this command to re-aggregate existing logs from /history folder. 
 
 <code>
 <code>java -jar Catla.jar -tool log -dir /your-example-folder/tuning_wordcount</code>
 </code>
  
-### (4) Analyzing Results
+### (5) Analyzing Results
 After job completion, the summaries of job metrics are located in the sub folder “/history” of the project root folder that you run. Then, you can visualize the results from the information of *.csv files in the history folder by using statistics software such as Minitab and MATLAB.<br/> 
+
+(https://github.com/dhchenx/Catla/tree/master/images/catla-surfaceplot.jpg)
+
 
 

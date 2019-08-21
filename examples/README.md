@@ -10,7 +10,7 @@ The information of Hadoop cluster in env_* file(s) should be modified according 
 3) /tuning_wordcount: tuning MapReduce job performance according to the configuration of parameters in /tuning subfolder. 
 
 ## Instructions to run these examples
-Step 1: Open your Windows CMD program; CD to the root folder of '/examples' folder
-Step 2: Copy the Catla.jar from '/catla-dist' folder to '/examples' folder
-Step 3: Using 'java -jar Catla.jar -tool ...' command to run these examples. (Details of the input arguments please see the main README.md)
+1) Open your Windows CMD program; CD to the root folder of '/examples' folder
+2) Copy the Catla.jar from '/catla-dist' folder to '/examples' folder
+3) Using 'java -jar Catla.jar -tool ...' command to run these examples. (Details of the input arguments please see the main README.md)
 
