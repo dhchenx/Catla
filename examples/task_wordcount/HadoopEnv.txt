@@ -1,0 +1,13 @@
+﻿Task init
+#master's IP address
+MasterHost 192.168.XXX.XXX
+#master's password
+MasterPassword XXXXX
+#master's SSH port
+MasterPort 22
+#master's username
+MasterUser hadoop
+#Path of master's hadoop executable
+HadoopBin /usr/hadoop/bin/hadoop
+# Root folder of jar files uploaded from user local computer; the folder must be created by Ubuntu root user manually; this system cannot automatically create the folder due to permission. 
+AppRoot /usr/hadoop_apps

@@ -1,0 +1,4 @@
+﻿Task upload
+LocalJarPath jars/HPExamples.jar
+RemoteJarPath HPExamples.jar
+DeleteExistingFile true
